@@ -1,15 +1,15 @@
 bool isPalindrome(String s){
-  // print('String: $s');
+  print('String: $s');
   int strlen = s.length;
   if(strlen < 3)
     return false;
 
   if(strlen % 2 == 0){
-    int left = (strlen ~/ 2);
-    int right = (strlen ~/ 2) + 1;
+    int left = (strlen ~/ 2) - 1;
+    int right = (strlen ~/ 2);
     for(right; right < strlen; right++){
-      // print('Left: ${s[left]}');
-      // print('Right: ${s[right]}');
+      // print('Left: ${s[left]}, index: $left');
+      // print('Right: ${s[right]}, index: $right');
       if(s[right] != s[left]){
         // print('${s[left]} != ${s[right]}');
         return false;
@@ -20,8 +20,8 @@ bool isPalindrome(String s){
     int left = (strlen ~/ 2) - 1;
     int right = (strlen ~/ 2) + 1;
     for(right; right < strlen; right++){
-      // print('Left: ${s[left]}');
-      // print('Right: ${s[right]}');
+      // print('Left: ${s[left]}, index: $left');
+      // print('Right: ${s[right]}, index: $right');
       if(s[right] != s[left]){
         // print('${s[left]} != ${s[right]}');
         return false;

@@ -1,5 +1,5 @@
 bool isPalindrome(String s){
-  print('String: $s');
+  // print('String: $s');
   int strlen = s.length;
   if(strlen < 3)
     return false;

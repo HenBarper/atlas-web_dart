@@ -25,7 +25,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 0-hello_holberton.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 1. The Quotes
@@ -43,7 +45,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 1-quotes.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 2. Print Number
@@ -64,7 +68,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 2-print_number.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 3. Print Doubles
@@ -83,7 +89,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 3-print_double.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 4. Print string
@@ -107,7 +115,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File:  4-print_string.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 5. Assertion
@@ -132,7 +142,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 5-assertion.dart
 __________________________________________________________________________________________________________________________________________
 ## Task 6. Positive anything is better than negative nothing
@@ -163,7 +175,9 @@ youssef@Holberton/Dart$
 ```
 
 GitHub repository: atlas-web_dart
+
 Directory: 0x00-hello-dart
+
 File: 6-positive_or_negative.dart
 
 [Back to top](#Sections)

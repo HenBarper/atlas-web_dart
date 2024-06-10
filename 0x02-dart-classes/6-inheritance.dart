@@ -26,8 +26,8 @@ class User extends Password{
       'id': id,
       'name': name,
       'age': age,
-      'height': height,
-      'user_password': password
+      'height': height//,
+      // 'user_password': password
     };
   }
 

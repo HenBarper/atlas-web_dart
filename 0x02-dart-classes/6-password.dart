@@ -12,6 +12,7 @@ class Password {
   }
 
   bool isValid(){
+    // print('password $_password');
     if(_password.length < 8 || _password.length > 16)
       return false;
     if(_password.contains(RegExp(r'[A-Z]')) != true)

@@ -18,7 +18,7 @@ Future<String> loginUser() async {
     if (verified){
     return await greetUser();
   } else {
-    return 'Wrong Credentials';
+    return 'Wrong credentials';
   }
   } catch (err){
     return 'error caught: $err';

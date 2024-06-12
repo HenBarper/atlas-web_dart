@@ -18,7 +18,7 @@ Future<String> loginUser() async {
   if (verified){
     print('There is a user: true');
   } else {
-    print('There is a user: true');
+    print('There is a user: false');
     return 'Wrong Credentials';
   }
   return greetUser();

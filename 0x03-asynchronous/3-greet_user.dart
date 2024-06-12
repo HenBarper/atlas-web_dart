@@ -7,19 +7,23 @@ Future<String> greetUser() async {
     Map<String, dynamic> userMap = jsonDecode(username);
     return "Hello ${userMap['username']}";
   } catch (err) {
-    print('error caught: $err');
+    return 'error caught: $err';
   }
-
-  return '';
 }
 
 Future<String> loginUser() async {
-  bool verified = await checkCredentials();
-  if (verified){
+  try {
+    bool verified = await checkCredentials();
+    if (verified){
     print('There is a user: true');
+    return greetUser();
   } else {
     print('There is a user: false');
     return 'Wrong Credentials';
   }
-  return greetUser();
+  } catch (err){
+    return 'error caught: $err';
+  }
+  
+  
 }

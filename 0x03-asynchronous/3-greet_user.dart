@@ -14,16 +14,13 @@ Future<String> greetUser() async {
 Future<String> loginUser() async {
   try {
     bool verified = await checkCredentials();
+    print('There is a user: $verified');
     if (verified){
-    print('There is a user: true');
-    return greetUser();
+    return await greetUser();
   } else {
-    print('There is a user: false');
     return 'Wrong Credentials';
   }
   } catch (err){
     return 'error caught: $err';
-  }
-  
-  
+  }  
 }
